@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .derecha{
+            text-align: right;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pastelería</title>
+</head>
+<body>
+    <img src="./images/logo temporal.png" alt="Logo Pastelería cat" width="150px">
+
+    <table cellspacing="30" align="right"> 
+        <tr>
+            <td><a href="#pasteles">Pasteles</a></td>
+            <td><a href="#adornos">Adornos</a></td>
+            <td><a href="#pedido">Hacer pedido</a></td>
+            <td><a href="loginAdministrador.html">Administrador</a></td>
+        </tr>
+    </table>
+    <h1>Te mereces lo mejor</h1>
+    <br>
+    <hr>
+    <br>
+    <h2 id="pasteles">pasteles</h2>
+
+    <table>
+        <tr>
+            <td><img src="./images/rollo de mango.jpeg" alt="rollo de mango" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$360.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/cheesecake de fresa.jpeg" alt="cheesecake de fresa" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$391.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/pastel fresas con crema.jpeg" alt="pastel fresas con crema" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$297.00</td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr>
+            <td><img src="./images/pastel de zanahoria.jpeg" alt="pastel de zanahoria" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$350.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/pastel de nieve y oreo.jpeg" alt="pastel de nieve y oreo" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$399.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/pastel de chocolate.jpeg" alt="pastel de chocolate" width="200px"></td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <h2 id="adornos">Adornos</h2>
+
+    <table>
+        <tr>
+            <td><img src="./images/velas numero.jpeg" alt="velas número" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$14.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/vela bengala.jpeg" alt="velas bengala" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$32.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/vela letras.jpeg" alt="velas letras" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$43.00</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><img src="./images/paquete fiesta.jpeg" alt="paquete fiesta" width="200px"></td>
+        </tr>
+        <tr>
+            <td>$70.00</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <h2 id="pedido">Haz tu pedido</h2>
+
+    <form action="pedido.js">
+        <h3>Pasteles</h3>
+        <input type="checkbox" name="rollo de mango" id="rollo de mango">
+        <label for="rollo de mango">Rollo de mango</label>
+        <input type="number" id="rolloDeMangoCuantos" name="rolloDeMangoCuantos" placeholder="cuantos"> <br>
+
+        <input type="checkbox" name="cheesecake de fresa" id="cheesecake de fresa">
+        <label for="cheesecake de fresa">Cheesecake de fresa</label>
+        <input type="number" id="cheesecakeDeFresa" name="cheesecakeDeFresa" placeholder="cuantos"> <br>
+
+        <input type="checkbox" name="pastel fresas con crema" id="pastel fresas con crema">
+        <label for="pastel fresas con crema">Pastel fresas con crema</label>
+        <input type="number" id="pastelFresasConCrema" name="pastelFresasConCrema" placeholder="cuantos"> <br>
+
+        <input type="checkbox" name="pastel de zanahoria" id="pastel de zanahoria">
+        <label for="pastel de zanahoria">Pastel de zanahoria</label>
+        <input type="number" id="pastelDeZanahoria" name="pastelDeZanahoria" placeholder="cuantos"> <br>
+
+        <input type="checkbox" name="pastel de nieve y oreo" id="pastel de nieve y oreo">
+        <label for="pastel de nieve y oreo">Pastel de nieve y oreo</label>
+        <input type="number" id="pastelDeNieveYOreo" name="pastelDeNieveYOreo" placeholder="cuantos"> <br>
+
+        <input type="checkbox" name="pastel de chocolate" id="pastel de chocolate">
+        <label for="pastel de chocolate">Pastel de chocolate</label>
+        <input type="number" id="pastelDeChocolate" name="pastelDeChocolate" placeholder="cuantos"> <br>
+        <hr>
+
+        <h3>Arma tu pastel</h3>
+        <p>sabores</p>
+        <input type="checkbox" name="chocolate" id="chocolate">
+        <label for="chocolate">chocolate</label><br>
+
+        <input type="checkbox" name="vainilla" id="vainilla">
+        <label for="vainilla">vainilla</label><br>
+
+        <input type="checkbox" name="fresa" id="fresa">
+        <label for="fresa">fresa</label><br>
+
+        <input type="checkbox" name="zanahoria" id="zanahoria">
+        <label for="zanahoria">zanahoria</label><br>
+
+        <input type="checkbox" name="mango" id="mango">
+        <label for="mango">mango</label><br>
+        <br>
+
+        <p>adornos</p>
+        <input type="checkbox" name="velas numero" id="velas numero">
+        <label for="velas numero">velas número</label><br>
+
+        <input type="checkbox" name="vela bengala" id="vela bengala">
+        <label for="vela bengala">vela bengala</label><br>
+
+        <input type="checkbox" name="vela letras" id="vela letras">
+        <label for="vela letras">vela letras</label><br>
+
+        <input type="checkbox" name="paquete fiesta" id="paquete fiesta">
+        <label for="paquete fiesta">paquete fiesta</label><br>
+    
+
+    </form>
+    <br>
+<hr>
+    <form action="mailto:infoBacops@gmail.com" method="post" enctype="text/plain">
+        <br>
+        <label>Nombre: </label>
+        <input type="text" name="nombre" value="">
+        <br>
+
+        <label for="">Telefono: </label>
+        <input type="tel" name="telefono">
+        <br>
+
+        <label for="">Email: </label>
+        <input type="email" name="email">
+        <br>
+
+        <label for="">Descripción del pastel:</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <br> 
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Contacto</h2>
+
+    <ul>
+        <li>Dirección: calle ficticia #123, Colonia: iventada, Estado: Inexistente</li>
+        <li>Telefono: 8115151515</li>
+        <li>mail: babababab@gmail.com</li>
+        <li>Horario: Lunes a Domingo 8:00 a.m. - 8:00 p.m.</li>
+      </ul>
+
+</body>
+</html>
